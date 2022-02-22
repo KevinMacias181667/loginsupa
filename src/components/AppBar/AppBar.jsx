@@ -2,7 +2,7 @@ import React from 'react';
 import { AppBar, Toolbar, Typography, Avatar, Tooltip, Box, IconButton, Button } from '@mui/material';
 import { supabase } from "../../config/supabaseClient";
 import { Link } from 'react-router-dom';
-//import { createTheme } from '@mui/material/styles';
+
 import { blue, red } from '@mui/material/colors';
 
 
@@ -54,7 +54,7 @@ const Navbar = () => {
 
                         <Tooltip title="Open settings">
                             <IconButton sx={{ p: 0 }}>
-                            <Avatar sx={{ bgcolor: blue[700] }} variant="square">
+                            <Avatar sx={{ bgcolor: red[400] }} variant="circle">
                                 A
                             </Avatar>
                             </IconButton>

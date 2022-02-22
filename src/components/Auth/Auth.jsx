@@ -26,7 +26,7 @@ export default function Auth() {
     <div className="row flex flex-center">
       <div className="col-6 form-widget">
         <h1 className="header">Iniciar Sesión</h1>
-        <p className="description">Inicie sesión a través del enlace mágico con su correo electrónico a continuación</p>
+        <p className="description">Inicie sesión mediante el enlace  que se mande a su correo electrónico a continuación</p>
         <div>
           <input
             className="inputField"
@@ -45,7 +45,7 @@ export default function Auth() {
             className={'button block'}
             disabled={loading} sx={{ bgcolor: red[700] }}
           >
-            {loading ? <span>Cargando</span> : <span>Enviar enlace mágico</span>}
+            {loading ? <span>Cargando</span> : <span>Enviar enlace </span>}
           </Button>
         </div>
       </div>
